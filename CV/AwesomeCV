@@ -1,0 +1,107 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Authors:
+% Claud D. Park <posquit0.bj@gmail.com>
+% Lars Richter <mail@ayeks.de>
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Configuration
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Themes: Awesome-CV
+\documentclass[11pt, a4paper]{awesome-cv}
+
+%%% Override a directory location for fonts(default: 'fonts/')
+\fontdir[fonts/]
+
+%%% Configure a directory location for sections
+\newcommand*{\sectiondir}{cv/}
+
+%%% Override color
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+%% Color for highlight
+% Define your custom color if you don't like awesome colors
+\colorlet{awesome}{awesome-red}
+%\definecolor{awesome}{HTML}{CA63A8}
+%% Colors for text
+%\definecolor{darktext}{HTML}{414141}
+%\definecolor{text}{HTML}{414141}
+%\definecolor{graytext}{HTML}{414141}
+%\definecolor{lighttext}{HTML}{414141}
+
+%%% Override a separator for social informations in header(default: ' | ')
+%\headersocialsep[\quad\textbar\quad]
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Personal Data
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Essentials
+\name{Chris P. }{David}
+\address{49 Greenway North, Albany, NY 12208}
+\mobile{(518) 764-3567} 
+%%% Social
+\email{ chravid092@gmail.com}
+\github{https://github.com/Chrisdav92}
+\linkedin{https://www.linkedin.com/in/chris-david-70988010b/}
+%%% Optionals
+\position{IT Systems Analyst{\enskip\cdotp\enskip}Security Enthusiast}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Letter Data (Cover Letter)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\recipient
+  {GreyCastle Security}
+  {500 Federal Street Troy, NY 12180}
+\letterdate{\today}
+\lettertitle{Job Application for  Associate Security Specialist, Risk Assessment}
+\letteropening{Dear Mr./Ms./Dr.,}
+\letterclosing{Sincerely,}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Content
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Make a footer for CV with three arguments(<left>, <center>, <right>)
+\makecvfooter
+  {\today}
+  {Chris P. David ~~~·~~~Cover Letter}
+  {}
+
+\begin{document}
+%%% Make a header for CV using personal data
+\makecvheader
+
+%%% Make a title for Cover Letter using letter data
+\makelettertitle
+
+%%% Write content for your cover letter
+\begin{cvletter}
+\cvparagraph{About Me}
+My name is Chris P. David and I believe that my experience in the realm of computers and my passion for cyber security makes me an ideal candidate for this position at your company.
+As a recent College graduate I have a very solid background in Computer Science. You state in the posting that you want someone who get the job done  while working with others towards a common goal, as well as someone who will bring not only a great work ethic but someone who other can work along with. Throughout my 5 years in college, not only did I work very hard for my Degree but I also worked two jobs, as an Student IT tech who took on responsibilities of a full time staff-member but also as an IT Specialist of a Not-for profit foundation in which I dealt with HIPAA compliance. Both of these jobs required me to be very specific to details while also paying attention to any issues that may arise at any time. In terms of pressure, my first job out of College I essentially took over the position of an IT director and I say I had to adapt in a matter of a month to provide support for a multitude of users. 
+
+
+\cvparagraph{Why GreyCastle Security?}
+I would say the reason why I gravitated towards this job search and GreyCastle in general was because of the press and news associated with the company. I also had alumni who recommend to try out and apply to the company, in which I heard was hard to get into. This fueled my drive to be better at my job to join this company. This company is my Google of my job searches, which hopefully shows you my desire to work with the team. 
+
+\cvparagraph{Why Me?}
+As the 1st generation of my family to come to America and Graduate with an Advanced Degree, I would say I worked hard all my life, in terms of learning but also becoming someone people can depend on. I love computers in general and as a kid I always wanted to get on my dad's computer, in which I learned how to get around his security password. From there I cultivated my desire to learn about computer science and it wasn't until my last years in which I was able to get into a Cyber Security Internship where the spark of Computer Security was re-kindled and I started to learn as much as I could about it. Though I still consider myself a new person to this world, my hard work ethic and overall passion will make a strong and immediate impact at GreyCastle.  I am excited about the opportunity to join the GreyCastle team as it moves to the center of the Cyber Security world. Thank you for your time and consideration.
+
+\end{cvletter}
+
+%%% Make a closing for Cover Letter using letter data
+\makeletterclosing
+
+\end{document}

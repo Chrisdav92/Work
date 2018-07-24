@@ -1,0 +1,64 @@
+\cvsection{Experience}
+\begin{cventries}
+  \cventry
+    {IT Systems Analyst}
+    {Martin, Harding \& Mazzotti, LLP}
+    {Schenectady, NY}
+    {June 2017 - Present}
+    {
+      \begin{cvitems}
+        \item    {Instrumental in implementation of VPN for remote staff.}
+        \item    {Create and maintain end user technical documentation using LaTeX.}
+        \item    {Streamlined PC image process.}
+        \item    {Respond to and resolve tickets raised by staff as sole on-site IT personnel.}
+        \item    {Work closely with outside IT consultants and vendors. }
+        \item    {Manage Active Directory, Office 365 and various business-specific systems.}
+        \item    {Provide advisement on IT solutions to Management Team and firm Partners.}
+        \item    {Consulted with the Partners and several head of departments on safe computer usage.}
+        \item    {Quickly adapted to role due to transition of IT management at start of employment.} 
+        \item    {Provide on-site and remote technical support to over 130 employees across 6 locations}
+      \end{cvitems}
+    }
+    \cventry
+    {Cyber Risk Analyst Intern}
+    {CWA Threat Within}
+    {Albany, NY}
+    { Jan 2017 - May 2017}
+    {
+      \begin{cvitems}
+        \item    {Installed a Kali Linux VM to test out security tools}        
+        \item    {Knowledge and practice in producing executive briefing material/memos}
+        \item    {Knowledge and practice in producing succinct briefing videos on the current situation, the derived problems and implications and what actions are being taken to mitigate, respond or defend against future incidents.}
+        \item    {Contextual awareness and knowledge of Cyber security threat landscapes}
+        \item    {Utilized the National Institute of Standards and Technology (NIST) Cybersecurity Framework}
+      \end{cvitems}
+    }
+    \cventry
+    {IT specialist }
+    {Vascular Birthmarks Foundation}
+    {Colonie, NY}
+    {Jan 2015 - Jan 2017}
+    {
+      \begin{cvitems}
+        \item    {Worked on first ever CME accredited website for a non-profit medical organization}
+        \item    {Worked on both front end and back end parts of site, including overall site appearance, classes, modules as well as editing source code}
+        \item    {Contributed in board meetings concerning website development}
+        \item    {Worked in compliance with HIPAA}
+      \end{cvitems}
+    }
+     \cventry
+    {Student Support Technician}
+    {The College of Saint Rose}
+    {Albany, NY}
+    {June 2015 - June 2017}
+    {
+      \begin{cvitems}
+        \item    {Rollout of computers }
+        \item    {Troubleshooted computer issues for students and faculty}
+        \item    {Helped with a database of computer systems with serial numbers, and with what image was placed on the computers}
+        \item    {Windows/Mac OS installation along with managing accounts}
+        \item    {Go-to person to train new technicians}  
+      \end{cvitems}
+    }
+    
+\end{cventries}
